@@ -1,0 +1,1 @@
+# Hello_Kitty_inspired_tamagotchi
