@@ -1,8 +1,14 @@
 #flujo principal del juego
 
 if ENV['RUN_IN_TERMINAL'].nil?
-  system %{osascript -e 'tell application "Terminal" to do script "env RUN_IN_TERMINAL=1 ruby ~/Desktop/Hello_Kitty_Tamagochi/main.rb"' -e 'tell application "Terminal" to set bounds of front window to {0, 0, 710, 750}'}
-  exit
+	  script = <<-SCRIPT
+	  tell application "Terminal"
+	    do script "env RUN_IN_TERMINAL=1 ruby ~/Desktop/Hello_Kitty_tamagotchi/main.rb"
+	    set bounds of front window to {0, 0, 710, 750}
+	  end tell
+	SCRIPT
+
+	system %{osascript -e '#{script}'}
 end
 
 require_relative 'tamagochi_class'
@@ -114,7 +120,6 @@ loop do
 		descanso
 		sleep(0.5)
 	end
-
 end
 
 
