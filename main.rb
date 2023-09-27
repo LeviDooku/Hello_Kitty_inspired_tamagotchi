@@ -1,4 +1,4 @@
-#flujo principal del juego
+#Flujo del juego
 
 if ENV['RUN_IN_TERMINAL'].nil?
 	  script = <<-SCRIPT
