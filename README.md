@@ -10,3 +10,7 @@ Al ser ejecutado, el programa abre una terminal, de un tamaño determinado, en e
 Aunque no es necesario, he decidido modularizar el proyecto (no de la forma más eficiente). Existen dos archivos:
 - `main.rb`: se encarga del flujo del juego, para las animaciones usa métodos de la clase `tamagochi_class.rb`.
 - `tamagochi_class.rb`: incluye los métodos necesarios para realizar las animaciones. Cada método contiene el arte en texto ASCII correspondiente a cada acción. (Para hacer esto he usado una página web: https://manytools.org/hacker-tools/convert-images-to-ascii-art/).
+
+### **Cosas por hacer**
+
+- Modularizar de forma correcta el proyecto, haciendo un fichero para las funciones.
