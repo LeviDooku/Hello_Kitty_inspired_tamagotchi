@@ -14,3 +14,5 @@ Aunque no es necesario, he decidido modularizar el proyecto (no de la forma más
 ### **Cosas por hacer**
 
 - Modularizar de forma correcta el proyecto, haciendo un fichero para las funciones.
+- Crear nuevas animaciones para cada estado de ánimo de Hello Kitty (pereza máxima)
+- Crear nuevas funcionalidades, nuevos estados, por ejemplo.
